@@ -1,0 +1,5 @@
+flask
+easyocr
+cv2
+Levenstein
+matplotlib

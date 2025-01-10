@@ -1,0 +1,68 @@
+<!doctype html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>OCR Results</title> 
+    <style> 
+        body { 
+            font-family: Arial, sans-serif; 
+            background-color: #e0f7fa; 
+            color: #333; 
+            margin: 0; 
+            padding: 0; 
+            display: flex; 
+            flex-direction: column; 
+            align-items: center; 
+            justify-content: center; 
+            height: 100vh; 
+        } 
+        h1 { 
+            color: #007BFF; 
+        } 
+        p { 
+            background: #fff; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+            width: 80%; 
+            max-width: 600px; 
+            margin: 10px 0; 
+        } 
+        p.name, p.organization { 
+            text-transform: uppercase; 
+        } 
+        strong { 
+            color: #007BFF; 
+        } 
+        img { 
+            max-width: 80%; 
+            height: auto; 
+            border: 2px solid #007BFF; 
+            border-radius: 5px; 
+            margin-top: 20px; 
+        } 
+        a { 
+            display: inline-block; 
+            margin-top: 20px; 
+            padding: 10px 20px; 
+            background: #007BFF; 
+            color: #fff; 
+            text-decoration: none; 
+            border-radius: 5px; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+        } 
+        a:hover { 
+            background: #0056b3; 
+        } 
+    </style> 
+</head> 
+<body> 
+    <h1>OCR Results</h1> 
+    <p class="name"><strong>Name of Person:</strong> {{ person_name }}</p> 
+    <p class="organization"><strong>Name of Organization:</strong> {{ organization_name }}</p> 
+    <p><strong>Phone Number:</strong> {{ phone_number }}</p> 
+    <br><br> 
+    <a href="/">Upload another file</a> 
+</body> 
+</html>
