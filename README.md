@@ -50,6 +50,3 @@ The **Business Card OCR System** is an advanced Optical Character Recognition (O
 - **EasyOCR**: For OCR functionality.  
 - **OpenCV**: For image processing.  
 - **Levenshtein**: For text similarity computation.  
-
----  
-This system makes extracting and managing business card details efficient and seamless for users.
